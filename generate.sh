@@ -2,8 +2,9 @@
 
 # A short script to automate generation fo the open tx sound files from https://glados.c-net.org/
 # some prep is required before running. 
-# 	*copy csv file to working directory
-#	*create directories as required in working directory eg. ~SOUNDS/en/SYSTEM
+#  *copy csv file to working directory
+#	 *create directories as required in working directory eg. ~SOUNDS/en/SYSTEM
+#  *install sox
 # 2021 Anthony Ollerton
 
 while IFS=";" read -r path file value
